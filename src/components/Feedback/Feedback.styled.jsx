@@ -1,17 +1,17 @@
 const { default: styled } = require("styled-components");
 
-export const Buttons = styled.ul`
-  display: flex;
-  list-style: none;
-  li+li{
-    margin-left:10px;
-  }
+export const Buttons = styled.div`
 
+  button{
+    margin-right: 5px;
+  }
 `
 export const Stats = styled.ul`
   list-style: none;
   p{
     fons-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
   }
   li{
     display: flex;
