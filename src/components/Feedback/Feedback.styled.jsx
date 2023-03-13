@@ -9,7 +9,7 @@ export const Buttons = styled.div`
 export const Stats = styled.ul`
   list-style: none;
   p{
-    fons-size: 12px;
+    font-size: 12px;
     font-weight: 500;
     text-transform: capitalize;
   }

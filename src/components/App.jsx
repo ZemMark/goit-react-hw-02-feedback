@@ -7,9 +7,8 @@ export class App extends Component{
     neutral: 0,
     bad: 0,
   };
-  handleBtnClick = (e) => {
-    const { id } = e.target;
-    this.setState((prevState)=>({...prevState, [id]: prevState[id]+1}))
+  handleBtnClick = (el) => {
+    this.setState((prevState)=>({...prevState, [el]: prevState[el]+1}))
   }
   countTotalFeedback = () => {
     
